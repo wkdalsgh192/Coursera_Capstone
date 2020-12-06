@@ -35,17 +35,16 @@ Each venue has its own category relying on what it sells or provides. For exampl
 
 Combined with the choropleth map I made earlier, it shows interesting result that although we never mentioned any other features other than venues, our model clustered the most boroughs with high foot traffic as one group, and the rest as the other. Taking a closer look at the two clusters, cafe is at the first top in almost every regions (given the amount of coffee Koreans consume annually, It is not surprising that cafe prevails all the other), they gets distinctive from the second top common venues. The model seems to take restaurants and bakery into account as a pair of cafe to draw a line. in the below charts, korean and some other restaurants are more frequent in the first cluster whereas bakery or dessert shops are in the second. From the result, I could get an insight that a newly opening cafe has to be located in the cluster 1 area.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/df12334b-8835-457c-ae6d-15c8a23b35fc/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/df12334b-8835-457c-ae6d-15c8a23b35fc/Untitled.png)
-
+![img3](https://user-images.githubusercontent.com/50606172/101274749-f4da8e80-37e3-11eb-8db6-8e1dcd3fa87e.png)
 (Top 10 venues of the second cluster boroughs)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/259216cc-f012-45f3-bcfb-f51ec2e43cc9/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/259216cc-f012-45f3-bcfb-f51ec2e43cc9/Untitled.png)
+![img4]()
 
 (Top 10 venues of the first cluster boroughs) 
 
 ## 2-3 How Starbucks do
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8b614f25-c748-4592-b62a-f1b3ade30547/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8b614f25-c748-4592-b62a-f1b3ade30547/Untitled.png)
+![img5]()
 
 Number of Starbucks store located in Seoul
 
@@ -62,4 +61,4 @@ If it is a kind of franchise cafes, running it on the street close to other big 
 
 Ahead of clustering, I attempted the elbow method with distortion and inertia respectively, a common way to find the optimal value of K. In the two graphs below, when K increases by 2, both decrease from 0.45 nearly to 0.35, shown as the biggest reduction in any value of K. However, the lines keep going down in small step until K converge towards the number of boroughs and additional features would be necessary to choose the optimum more clearly.  
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f01c81e2-11f2-4b9a-9116-3018faf6531d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f01c81e2-11f2-4b9a-9116-3018faf6531d/Untitled.png)
+![img6]()
