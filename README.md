@@ -38,13 +38,12 @@ Combined with the choropleth map I made earlier, it shows interesting result tha
 ![img3](https://user-images.githubusercontent.com/50606172/101274749-f4da8e80-37e3-11eb-8db6-8e1dcd3fa87e.png)
 (Top 10 venues of the second cluster boroughs)
 
-![img4]()
-
+![img4](https://user-images.githubusercontent.com/50606172/101274752-f60bbb80-37e3-11eb-90e7-bc9041dd0081.png)
 (Top 10 venues of the first cluster boroughs) 
 
 ## 2-3 How Starbucks do
 
-![img5]()
+![img5](https://user-images.githubusercontent.com/50606172/101274753-f6a45200-37e3-11eb-8ac7-c5abbe7808ad.png)
 
 Number of Starbucks store located in Seoul
 
@@ -61,4 +60,4 @@ If it is a kind of franchise cafes, running it on the street close to other big 
 
 Ahead of clustering, I attempted the elbow method with distortion and inertia respectively, a common way to find the optimal value of K. In the two graphs below, when K increases by 2, both decrease from 0.45 nearly to 0.35, shown as the biggest reduction in any value of K. However, the lines keep going down in small step until K converge towards the number of boroughs and additional features would be necessary to choose the optimum more clearly.  
 
-![img6]()
+![img6](https://user-images.githubusercontent.com/50606172/101274754-f7d57f00-37e3-11eb-8d58-10f8d2286b10.png)
